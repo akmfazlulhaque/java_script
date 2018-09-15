@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Java script</title>
+  </head>
+  <body>
+    <p id="hello" >My First JavaScript</p>
+    <button type= "button"
+    onclick= "document.getElementById('hello').innerHTML = date()">
+    Click me to change</button>
+    <p id="hello"></p>
+    <br>
+    <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">Turn light on</button>
+
+    <img id="myImage" src="images/pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">Turn light off</button>
+    <p id="font">Lorem ipsum dolor</p>
+    <button type="button" onclick="document.getElementById('font').style.
+    fontSize ='30px';">Click Me for font-size</button>
+    <br>
+    <button type="button" onclick="document.getElementById('hide').style.
+    display = 'none'">Click Me for hide</button>
+    <br>
+    <p id="hide">Lorem ipsum dolor sit amet.</p>
+    <button type="button" onclick="document.getElementById('hide').style.
+    display = 'block'">Click Me for show</button>
+    <br>
+    <button type="button" onclick="document.write(11-10);">useing document.write</button>
+
+
+
+
+
+    <!-- jQuery-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
